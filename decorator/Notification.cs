@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Structure.decorator
 {
-    class Notification
+    class Notification 
     {
         public string Text { get; set; }
         public  string DateHeur { get; set; }

@@ -9,6 +9,7 @@ namespace Structure.decorator
     class FacebookNotification : SendInterface
     {
         Notification notification { get; set; }
+        string FaceBookId { get; set; }
         public void sendNotification(Notification notification)
         {
             throw new NotImplementedException();

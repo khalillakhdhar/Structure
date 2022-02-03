@@ -42,15 +42,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Adapter\Product.cs" />
-    <Compile Include="Adapter\ProductAdapter.cs" />
-    <Compile Include="Adapter\ProductInterface.cs" />
+    <Compile Include="adapter\Product.cs" />
+    <Compile Include="adapter\ProductAdapter.cs" />
+    <Compile Include="adapter\ProductInterface.cs" />
+    <Compile Include="bridge\User.cs" />
     <Compile Include="composite\Message.cs" />
     <Compile Include="composite\MessageInterface.cs" />
     <Compile Include="composite\User.cs" />
     <Compile Include="composite\UserGroup.cs" />
     <Compile Include="composite\UserGroupeInterface.cs" />
     <Compile Include="composite\UserInterface.cs" />
+    <Compile Include="decorator\EmailNotification.cs" />
+    <Compile Include="decorator\FacebookNotification.cs" />
+    <Compile Include="decorator\Notification.cs" />
+    <Compile Include="decorator\SendInterface.cs" />
+    <Compile Include="decorator\SMSNotification.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

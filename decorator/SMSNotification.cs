@@ -8,6 +8,7 @@ namespace Structure.decorator
 {
     class SMSNotification : SendInterface
     {
+        public int phoneNumber { get; set; }
         public Notification notification { get; set; }
         public void sendNotification(Notification notification)
         {
