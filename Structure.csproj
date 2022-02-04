@@ -59,6 +59,9 @@
     <Compile Include="decorator\SMSNotification.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="proxy\AchatModel.cs" />
+    <Compile Include="proxy\PayementInterface.cs" />
+    <Compile Include="proxy\PaymentProxy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
